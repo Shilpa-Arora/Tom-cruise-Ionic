@@ -1,0 +1,15 @@
+<ion-header-bar class="bar-dark">
+	<h1 class="title">Movie's Detail</h1>
+	   <button class="button icon ion-home"  ng-click="goHome()"></button>
+</ion-header-bar>
+
+<ion-content id="mainPost" class="padding cont">
+<img data-ng-src="{{characterDetail.poster}}" err-src="../img/tc.jpg" alt="image not available" id="tcImg">
+<h2>{{characterDetail.show_title}}</h2>
+<p>DIRECTOR: {{characterDetail.director}}</p>
+<p>SUMMARY: {{characterDetail.summary}}</p>
+<p>CAST: {{characterDetail.show_cast}}</p>
+
+</ion-content>
+
+

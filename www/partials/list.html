@@ -1,0 +1,14 @@
+<ion-header-bar class=" bar-stable">
+	<h1 class="title">Tom Cruise Movies</h1>
+</ion-header-bar>
+
+<ion-content id="mainCon">
+	<ion-list id="mainList">
+	<ion-item ng-repeat="char in chars">
+	<h2>MOVIE NAME: {{char.show_title}}</h2>
+	<h2>DIRECTOR: {{char.director}}</h2>
+	<h2>RATING: {{char.rating}}</h2>
+	<a href="#details/{{$index}}" class="ion-star">More Information</a>
+	</ion-item>
+	</ion-list>
+</ion-content>

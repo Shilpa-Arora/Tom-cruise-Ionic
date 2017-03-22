@@ -1,0 +1,58 @@
+/* Empty. Add your own CSS if you like */
+
+body {
+	font-family: 'Open Sans', Arial, sans-serif;
+}
+#mainCon{
+	text-align: center;
+}
+#mainCon ion-item{
+	background-color: rgba(0,0,0,0.8);
+}
+#mainCon h2{
+	color: white;
+}
+#mainCon a{
+	text-decoration: none;
+	color: white;}
+.cont{
+	background: url('../img/bg.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+      background-color: rgba(0,0,0,0.8);
+  background-blend-mode: screen;
+text-align: center;
+padding-top: 2%;
+}
+.cont h2{
+	color: white;
+}
+ p{
+	color: white;
+}
+.title {
+	font-size: 26px !important;
+
+}
+
+a {
+	font-size: 12px;
+}
+
+#mainList .introText {
+	text-align: center;
+}
+
+#mainList p {
+	line-height: 26px;
+}
+#tcImg{
+	max-width: 80%;
+	
+}
+
